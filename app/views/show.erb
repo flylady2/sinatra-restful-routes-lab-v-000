@@ -3,8 +3,8 @@
 <h2> Content: <%= @recipe.cook_time %> </h2><br>
 
 <form action="/recipes/<%=@recipe.id%>" method="POST">
-  <input id="hidden" type="hidden" name="_method" value="delete">
+  <input id="hidden" type="hidden" name="_method" value="DELETE">
   <% #binding.pry %>
-  <input type="submit"  id="delete" value="delete">
+  <input type="submit"  id="delete" value="DELETE">
   <% #binding.pry %>
 </form>
