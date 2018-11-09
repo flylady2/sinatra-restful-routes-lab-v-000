@@ -2,6 +2,8 @@
 <ul>
 <% @recipes.each do |recipe| %>
 <% #binding.pry %>
-<li><%=recipe.name%></li>
+<li>Name: <%=recipe.name%></li>
+<li>Ingredients: <%=recipe.ingredients%></li>
+<li>Cook Time: <%=recipe.cook_time%></li>
 
 <% end %>
